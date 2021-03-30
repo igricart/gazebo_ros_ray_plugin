@@ -12,7 +12,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GAZEBO_CXX_FLAGS}")
 
 catkin_package(
   INCLUDE_DIRS include ${GAZEBO_INCLUDE_DIRS}
-  LIBRARIES gazebo_custom_ros_block_laser gazebo_custom_ros_block_gpu_laser
+  LIBRARIES gazebo_ros_ray_sensor
   CATKIN_DEPENDS roscpp sensor_msgs gazebo_ros
 )
 
