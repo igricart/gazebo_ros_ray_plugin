@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gazebo_ros_ray_plugin</name>
+  <version>1.0.0</version>
+  <description>
+    Gazebo plugin to provide simulated data from arbitrary laser scanners.
+  </description>
+
+  <license>BSD</license>
+  <author>kev-the-dev</author>
+  <maintainer email="todo@gmail.com">To Do Done</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf</depend>
+  <depend>gazebo_ros</depend>
+
+  <export></export>
+
+</package>
